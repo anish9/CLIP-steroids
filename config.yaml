@@ -16,4 +16,4 @@ Model:
 
 Dataset:
   train_csv_path: "dataset/demodata.csv"
-  val_csv_path: "dataset/demodata.csv"
+  val_csv_path: "dataset/test.csv"
