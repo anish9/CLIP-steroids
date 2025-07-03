@@ -1,0 +1,19 @@
+Training:
+  batch_size: 8
+  learning_rate: 5e-5
+  epochs: 10
+  ckpt_dir: "model_ckpt"  #model checkpoints dir.
+  logs_dir: "model_logs"  #tensorflow model logs.
+  ckpt_max_keep: 3        #maximum files to store in the checkpoint dir(overwrites).
+
+Model:
+  image_encoder: "EfficientNetB1" #select any from clipkit/model_catalog.
+  tune_image_layers_count: 10
+  text_encoder: "google/electra-small-discriminator" #select any from clipkit/model_catalog.
+  tune_text_layers: True
+  proj_dim: 512
+  max_length: 12 #max text sequence length.
+
+Dataset:
+  train_csv_path: "dataset/demodata.csv"
+  val_csv_path: "dataset/demodata.csv"

@@ -1,0 +1,13 @@
+[tool.ruff]
+# What rules to check (you can list the codes you care about)
+lint.select = ["E", "F", "W", "I"]
+
+# Any rules you want Ruff to ignore entirely
+lint.ignore = []
+
+#  Max line length (defaults to 88 if you omit this)
+line-length = 100
+
+# Whether to allow unsafe fixes by default
+# (you probably want to leave this false until you’re confident)
+unsafe-fixes = false
