@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ```
 - A sample dataset format is provided in the ```dataset``` folder.
 - Edit the **config.yaml** file.
-  - A model catalog file is present at ```clipkit/model_catalog.py```.
+  - A model catalog file is provided <a href="https://github.com/anish9/CLIP-steroids/blob/main/clipkit/model_catalog.py">**Model Catalog**</a>.
   - We can couple any **Image backbone** with **Text backbone** to get our optimal model based on our Dataset *complexity*.
     
   ```
