@@ -15,6 +15,7 @@ CLIP-steroids is a flexible, high-performance training framework that lets you m
   - Easily configurable with a ```config.yaml``` file — no hard coding required.
   - Built for rapid experimentation — iterate fast, succeed faster.
   - Optimize for performance or model size as needed.
+  - This project is workhorse, can get things done.
 
   Just set up your config and launch training. That’s it.
 
@@ -54,3 +55,17 @@ pip install -r requirements.txt
   ```
   python train.py
   ```
+### Inference
+  - The model for **zero shot classification** is explained in ```test.ipynb``` Notebook.
+
+### Todo 🚧
+ - [ ] Add Model freezing code blocks, useful for deployment.
+ - [ ] Add Multi-gpu support.
+
+### Acknowledgements
+```
+  This project leverages the incredible work of:
+    - TensorFlow & Keras – for the robust deep learning framework.
+    - Hugging Face Transformers – for access to state-of-the-art pre-trained models.
+  We sincerely thank the open-source communities behind these tools.
+```
