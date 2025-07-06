@@ -7,7 +7,7 @@ Unleash Swarm of Zero Shot Models
 </p>
 
 ### About
-CLIP-steroids is a flexible, high-performance training framework that lets you mix and match any image encoder with any text decoder to build optimized CLIP-style models.
+CLIP-steroids is a flexible, high-performance training framework that lets you mix and match any image encoder with any text encoder to build optimized CLIP-style models.
 
 🚀 Why CLIP-steroids?
   - Combine any image encoder with any text encoder — full flexibility.
